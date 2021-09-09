@@ -36,19 +36,19 @@ public class Preference {
         //return DeviceManager.getInstance(context).get_device_id();
     }
 
-    public void setBoolean(String name,boolean value){
+    public void putBoolean(String name,boolean value){
         editor.putBoolean(name, value);
     }
-    public void setInt(String name,int value){
+    public void putInt(String name,int value){
         editor.putInt(name, value);
     }
-    public void setUString(String name,String value){
+    public void putString(String name,String value){
         editor.putString(name, value);
     }
-    public void setFloat(String name,float value){
+    public void putFloat(String name,float value){
         editor.putFloat(name, value);
     }
-    public void setLong(String name,long value){
+    public void putLong(String name,long value){
         editor.putLong(name, value);
     }
 
